@@ -9,7 +9,7 @@ The features, classification frameowrk and the dataset are presented in the arti
 # Citation
 Please cite these papers in your publications if it helps your research:
 
-    @ARTICLE{McCay:DeepBaby,
+    @ARTICLE{McCay:TNSRE2022,
       author={Kevin D. {McCay} and Pengpeng {Hu} and Hubert P. H. {Shum} and Wai Lok {Woo} and Claire {Marcroft} and Nicholas D. {Embleton} and Adrian {Munteanu} and Edmond S. L. {Ho}},
       journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
       title={A Pose-based Feature Fusion and Classification Framework for the Early Prediction of Cerebral Palsy in Infants}, 
