@@ -13,12 +13,12 @@ The code was developed and tested on Matlab R2021b, and it should be runnable on
 
 The code can be used for extracting features and evaluating the classification performances on the MINI-RGBD and RVI-38 datasets.
 
-<u>For MINI-RGBD:</u>
+**For MINI-RGBD:**
 The extracted json pose data is stored in: MRGB\00_25J_MRGB\MRGBD
 To run the feature extraction run the A_Feature_Extraction_MRGBD.m, this will process the pose data and extract each of the proposed features for classification.
 To run the classification pipeline, run the B_Classification_MRGBD.m
 
-<u>For RVI-38:</u>
+**For RVI-38:**
 The extracted json pose data is available upon request, please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
 To run the feature extraction run the A_Feature_Extraction_RVI.m, this will process the pose data and extract each of the proposed features for classification.
 To run the classification pipeline, run the B_Classification_RVI.m
