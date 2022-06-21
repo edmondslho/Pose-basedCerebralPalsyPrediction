@@ -2,7 +2,7 @@
 
 ![Overall Framework](Framework.png)
 
-We present a series of new and improved features, and a feature fusion pipeline for this classification task. We also introduce the RVI-38 dataset, a series of videos captured as part of routine clinical care. By utilising this challenging dataset we establish the robustness of several motion features for classification, subsequently informing the design of our proposed feature fusion framework based upon the General Movements Assessment (GMA).
+We present a series of new and improved features, and a feature fusion pipeline for this classification task. We also introduce the RVI-38 dataset, a series of videos captured as part of routine clinical care. By utilising this challenging dataset we establish the robustness of several motion features for classification, subsequently informing the design of our proposed feature fusion framework based upon the General Movements Assessment (GMA). The Open Access article can be downloaded from: https://ieeexplore.ieee.org/document/9662301
 
 The features, classification framework and the dataset are presented in the article (see the Citation section). For accessing the RVI-38 dataset (skeletal pose sequences with annotations), please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
 
