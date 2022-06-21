@@ -1,0 +1,18 @@
+clear;
+run ('00_25J_MRGB/MRGB_A_Pre_processing.m');
+run ('00_25J_MRGB/MRGB_B_Alignment.m');
+run ('00_25J_MRGB/MRGB_C_NormaliseRotation.m');
+run ('00_25J_MRGB/MRGB_D_AngDis_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_AngDis_16Bin.m');
+run ('00_25J_MRGB/MRGB_D_FFT_JD_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_FFT_JD_16Bin.m');
+run ('00_25J_MRGB/MRGB_D_FFT_JO_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_FFT_JO_16Bin.m');
+run ('00_25J_MRGB/MRGB_D_HOJD2D_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_HOJD2D_16Bin.m');
+run ('00_25J_MRGB/MRGB_D_HOJO2D_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_HOJO2D_16Bin.m');
+run ('00_25J_MRGB/MRGB_D_Rel_JO2D_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_Rel_JO2D_16Bin.m');
+run ('00_25J_MRGB/MRGB_D_Rel_JOAngDis_8Bin.m');
+run ('00_25J_MRGB/MRGB_D_Rel_JOAngDis_16Bin.m');
