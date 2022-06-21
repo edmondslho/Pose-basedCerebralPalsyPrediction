@@ -4,9 +4,24 @@
 
 We present a series of new and improved features, and a feature fusion pipeline for this classification task. We also introduce the RVI-38 dataset, a series of videos captured as part of routine clinical care. By utilising this challenging dataset we establish the robustness of several motion features for classification, subsequently informing the design of our proposed feature fusion framework based upon the General Movements Assessment (GMA).
 
-The features, classification frameowrk and the dataset are presented in the article (see the Citation section). Since we are still prearing the final version of the article, the code will be available soon. Stay tuned!
+The features, classification framework and the dataset are presented in the article (see the Citation section). Since we are still preparing the final version of the article, the code will be available soon. Stay tuned!
 
 For accessing the dataset (skeletal pose sequences with annotations), please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
+
+# Usage
+The code was developed and tested on Matlab R2021b, and it should be runnable on some older Matlab versions.
+
+The code can be used for extracting features and evaluating the classification performances on the MINI-RGBD and RVI-38 datasets.
+
+<u>For MINI-RGBD:</u>
+The extracted json pose data is stored in: MRGB\00_25J_MRGB\MRGBD
+To run the feature extraction run the A_Feature_Extraction_MRGBD.m, this will process the pose data and extract each of the proposed features for classification.
+To run the classification pipeline, run the B_Classification_MRGBD.m
+
+<u>For RVI-38:</u>
+The extracted json pose data is available upon request, please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
+To run the feature extraction run the A_Feature_Extraction_RVI.m, this will process the pose data and extract each of the proposed features for classification.
+To run the classification pipeline, run the B_Classification_RVI.m
 
 # Citation
 Please cite these papers in your publications if it helps your research:
@@ -30,6 +45,8 @@ Please cite these papers in your publications if it helps your research:
         pages={5469-5472},  
         doi={10.1109/EMBC.2019.8857680}
     }
+    
+You may also visit our project page for more related research: http://www.edho.net/projects/babies/
 
 # Authors and Contributors
-The program is developed by Kevin McCay (kevin.d.mccay@northumbria.ac.uk) and Edmond S. L. Ho (e.ho@northumbria.ac.uk). Currently, it is being maintained by Edmond S. L. Ho.
+The program is developed by Kevin McCay (K.Mccay@mmu.ac.uk) and Edmond S. L. Ho (e.ho@northumbria.ac.uk). Currently, it is being maintained by Edmond S. L. Ho.
