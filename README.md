@@ -4,9 +4,7 @@
 
 We present a series of new and improved features, and a feature fusion pipeline for this classification task. We also introduce the RVI-38 dataset, a series of videos captured as part of routine clinical care. By utilising this challenging dataset we establish the robustness of several motion features for classification, subsequently informing the design of our proposed feature fusion framework based upon the General Movements Assessment (GMA).
 
-The features, classification framework and the dataset are presented in the article (see the Citation section). Since we are still preparing the final version of the article, the code will be available soon. Stay tuned!
-
-For accessing the dataset (skeletal pose sequences with annotations), please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
+The features, classification framework and the dataset are presented in the article (see the Citation section). For accessing the RVI-38 dataset (skeletal pose sequences with annotations), please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
 
 # Usage
 The code was developed and tested on Matlab R2021b, and it should be runnable on some older Matlab versions.
