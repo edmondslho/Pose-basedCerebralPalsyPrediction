@@ -4,7 +4,7 @@
 
 We present a series of new and improved features, and a feature fusion pipeline for this classification task. We also introduce the RVI-38 dataset, a series of videos captured as part of routine clinical care. By utilising this challenging dataset we establish the robustness of several motion features for classification, subsequently informing the design of our proposed feature fusion framework based upon the General Movements Assessment (GMA). The Open Access article can be downloaded from: https://ieeexplore.ieee.org/document/9662301
 
-The features, classification framework and the dataset are presented in the article (see the Citation section). For accessing the RVI-38 dataset (skeletal pose sequences with annotations), please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
+The features, classification framework and the dataset are presented in the article (see the Citation section). For accessing the RVI-38 dataset (skeletal pose sequences with annotations), please contact Edmond S. L. Ho (Shu-Lim.Ho@glasgow.ac.uk).
 
 # Usage
 The code was developed and tested on Matlab R2021b, and it should be runnable on some older Matlab versions.
@@ -19,7 +19,7 @@ To run the feature extraction run the A_Feature_Extraction_MRGBD.m, this will pr
 To run the classification pipeline, run the B_Classification_MRGBD.m
 
 **For RVI-38:**
-The extracted json pose data is available upon request, please contact Edmond S. L. Ho (e.ho@northumbria.ac.uk).
+The extracted json pose data is available upon request, please contact Edmond S. L. Ho (Shu-Lim.Ho@glasgow.ac.uk).
 
 To run the feature extraction run the A_Feature_Extraction_RVI.m, this will process the pose data and extract each of the proposed features for classification.
 
@@ -51,4 +51,4 @@ Please cite these papers in your publications if it helps your research:
 You may also visit our project page for more related research: http://www.edho.net/projects/babies/
 
 # Authors and Contributors
-The program is developed by Kevin McCay (K.Mccay@mmu.ac.uk) and Edmond S. L. Ho (e.ho@northumbria.ac.uk). Currently, it is being maintained by Edmond S. L. Ho.
+The program is developed by Kevin McCay (K.Mccay@mmu.ac.uk) and Edmond S. L. Ho (Shu-Lim.Ho@glasgow.ac.uk). Currently, it is being maintained by Edmond S. L. Ho.
